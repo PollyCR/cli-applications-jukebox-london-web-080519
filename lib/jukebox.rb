@@ -21,8 +21,12 @@ end
 end
 
 def list(songs)
-    songs.each_with_index.to_s do |index,title|
-    puts "#{index + 1}. #{title}"
+  i = 0
+  while i < songs.length
+    puts "#{i+1}. #{songs[i]}"
+    i+=1
   end
+end
+
 end
 end
