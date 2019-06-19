@@ -38,8 +38,10 @@ def run
   while input != "exit" 
   if input = "list"
     list(songs)
+    run(songs)
     elsif input = "play"
     play(songs)
+    run(songs)
     elsif input = "help"
     help
     elsif input = "exit"
