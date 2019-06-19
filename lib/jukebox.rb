@@ -11,7 +11,8 @@ puts "Please enter a song name or number:"
 input = gets.chomp 
 songs.each do |song|
   if song.to_i.between?(1,songs.length)
-    puts "Playing #{songs[song.to_i-1]
+    puts "Playing #{songs[song.to_i-1]}"
+    return 
 end
 end
 
