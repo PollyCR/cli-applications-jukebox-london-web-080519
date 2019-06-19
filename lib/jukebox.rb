@@ -44,6 +44,7 @@ def run (songs)
     run(songs)
     elsif input = "help"
     help
+    run(songs)
     elsif input = "exit"
     exit_jukebox
   end
