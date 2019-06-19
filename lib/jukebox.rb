@@ -12,7 +12,7 @@ input = gets.chomp
 songs.each do |song|
   if song.to_i.between?(1,songs.length)
     puts "Playing #{songs[song.to_i-1]}"
-    return 
+    return songs
 end
 end
 
