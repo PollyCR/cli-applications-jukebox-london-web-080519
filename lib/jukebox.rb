@@ -15,6 +15,7 @@ songs.each do |playlist|
     return
     elsif playlist.include?(input)
     puts "Playing #{input}"
+    elsif 
 end
 end
 
