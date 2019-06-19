@@ -6,10 +6,13 @@ puts "I accept the following commands: /n
 - exit : exits this program"
 end
 
-def list 
+def play(songs)
+  songs.each_with_index do |index,title|
+    puts "#{index}. #{title}"
+  end
 end
 
-def play
+def list 
 end
 
 def exit_jukebox 
