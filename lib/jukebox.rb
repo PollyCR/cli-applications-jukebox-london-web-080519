@@ -13,6 +13,7 @@ songs.each do |song|
   if input.to_i.between?(1,songs.length)
     puts "Playing #{songs[input.to_i-1]}"
     return
+    elsif input.
 end
 end
 
