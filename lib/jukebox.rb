@@ -20,3 +20,4 @@ def list(songs)
     puts "#{index + 1}. #{title}"
   end
 end
+end
