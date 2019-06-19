@@ -7,7 +7,10 @@ puts "I accept the following commands: /n
 end
 
 def play(songs)
-
+puts "Please enter a song name or number:"
+input = gets.chomp 
+songs.each do |song|
+  if 
 end
 
 def list(songs)
