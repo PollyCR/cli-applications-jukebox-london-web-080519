@@ -20,10 +20,3 @@ def list(songs)
     puts "#{index + 1}. #{title}"
   end
 end
-
-def exit_jukebox 
-end 
-
-def run 
-  
-end
