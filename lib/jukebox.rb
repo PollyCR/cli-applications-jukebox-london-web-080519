@@ -14,6 +14,7 @@ songs.each do |playlist|
     puts "Playing #{songs[input.to_i-1]}"
     return
     elsif playlist.include?(input)
+    puts "Playing #{input}"
 end
 end
 
