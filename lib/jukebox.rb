@@ -9,11 +9,11 @@ end
 def play(songs)
 puts "Please enter a song name or number:"
 input = gets.chomp 
-songs.each do |song|
+songs.each do |playlist|
   if input.to_i.between?(1,songs.length)
     puts "Playing #{songs[input.to_i-1]}"
     return
-    elsif input.
+    elsif playlist.include?(input)
 end
 end
 
