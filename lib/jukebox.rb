@@ -19,10 +19,13 @@ songs.each do |playlist|
   else puts "Invalid input, please try again."
 end
 end
+end
 
 def list(songs)
 songs.each_with_index do |song,index|
 puts "#{index+1}. #{song}"
   end
 end
-end 
+
+def exit_jukebox 
+  
