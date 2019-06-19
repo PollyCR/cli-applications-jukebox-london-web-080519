@@ -21,10 +21,8 @@ end
 end
 
 def list(songs)
-  i = 0
-  while i < songs.length
-    puts "#{i+1}. #{songs[i]}"
-    i+=1
+songs.each_with_index do |song,index|
+
   end
 end
 
