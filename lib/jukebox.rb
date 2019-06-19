@@ -7,12 +7,13 @@ puts "I accept the following commands: /n
 end
 
 def play(songs)
-  songs.each_with_index do |index,title|
-    puts "#{index + 1}. #{title}"
-  end
+
 end
 
-def list 
+def list(songs)
+    songs.each_with_index do |index,title|
+    puts "#{index + 1}. #{title}"
+  end
 end
 
 def exit_jukebox 
