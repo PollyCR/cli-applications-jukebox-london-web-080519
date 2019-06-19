@@ -26,5 +26,4 @@ puts "#{index+1}. #{song}"
   end
 end
 
-end
-end
+
